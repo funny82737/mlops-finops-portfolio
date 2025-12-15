@@ -15,6 +15,10 @@ A portfolio case study showing how I build **logical, measurable ML infrastructu
 - Business dashboard: `docs/screenshots/dashboard_business.png`
 - Resource efficiency: `docs/screenshots/dashboard_efficiency.png`
 
+![ML Inference Pipeline: Production Patterns + FinOps Feedback Loop](docs/architecture/architecture.png)
+
+![AI Inference FinOps Dashboard](docs/screenshots/dashboard_business.png)
+
 > Quick note: Numbers shown are from a demo environment — evidence of measurement-driven iteration, not production benchmarks.
 
 ---
@@ -221,11 +225,5 @@ This README lives in the portfolio hub. Implementation split across repos:
 - RAM: 3.23 GiB requested, 1.78 GiB real usage → healthy headroom
 
 **Unit economics breakdown:** $0.311/scan represents full infrastructure cost per business transaction at current scale (27 scans processed)
-
----
-
-![ML Inference Pipeline: Production Patterns + FinOps Feedback Loop](docs/architecture/architecture.png)
-
-![AI Inference FinOps Dashboard](docs/screenshots/dashboard_business.png)
 
 ![ML FinOps Resource Efficiency Dashboard](docs/screenshots/dashboard_efficiency.png)
